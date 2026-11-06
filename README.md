@@ -37,13 +37,9 @@
     <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
   </a>
 </p>
-
 # Medusa DTC Starter
-
 A production-ready monorepo starter for direct-to-consumer ecommerce stores powered by Medusa and Next.js. Includes a fully featured storefront with product browsing, cart, checkout, customer accounts, and order management.
-
 ## Features
-
 - All of [Medusa's commerce features](https://docs.medusajs.com/resources/commerce-modules)
 - Multi-region support with automatic country detection
 - Product catalog with variant selection
