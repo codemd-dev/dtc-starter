@@ -1,0 +1,4241 @@
+{
+  "schema": "codemd.product-metrics/v1",
+  "generated_at": "2026-11-06T19:06:25.276Z",
+  "repo": {
+    "owner": "codemd-dev",
+    "name": "dtc-starter"
+  },
+  "source": {
+    "branch": "main",
+    "commit": "4a1d53dc434ed124a78c4e2c9f312e1f47d4e9eb",
+    "run_id": "r_c85cbffebde3a129"
+  },
+  "extension_version": "0.0.547",
+  "summary": {
+    "features_total": 0,
+    "features_by_status": {
+      "Blocked": 0,
+      "At Risk": 0,
+      "In Progress": 0,
+      "Ready": 0,
+      "Not Mapped": 0
+    },
+    "subfeatures_total": 0,
+    "functions_mapped": 0,
+    "functions_checked": 0,
+    "functions_covered": 0,
+    "coverage_pct": null,
+    "tests": {
+      "total": 0,
+      "passing": 0,
+      "failing": 0,
+      "not_run_or_unknown": 0,
+      "run_confirmed": 0
+    },
+    "test_lag": 0,
+    "bugs": {
+      "active": 0,
+      "fixed_code": 0,
+      "fixed_test": 1,
+      "environment": 1,
+      "recurring": 0
+    },
+    "issues": {
+      "code_bugs": 0,
+      "security_blockers": 0,
+      "unconfirmed": 0,
+      "test": 0,
+      "environment": 1,
+      "minor": 1
+    },
+    "risky_functions": {
+      "total": 0,
+      "tested": 0
+    }
+  },
+  "analysis": {
+    "files_seen": 326,
+    "source_files_analyzed": 293,
+    "source_lines": 20877,
+    "languages_detected": 6,
+    "languages_in_callgraph": 1,
+    "functions_mapped": 863,
+    "function_relationships": 1166,
+    "functions_with_tests": 1,
+    "functions_coverage_confirmed": 0,
+    "tests_discovered": 0,
+    "tests_generated": 2,
+    "tests_executed": 0,
+    "tests_passing": 0,
+    "tests_failing": 0
+  },
+  "features": [
+    {
+      "id": "feat_2pa8iv49",
+      "name": "A row that returns no document leaves",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_rjvh5cwr",
+          "name": "Add Promotion",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_ity2vu22",
+          "name": "Adyen Session",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_r8picjzz",
+          "name": "Discount",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_6gbqiq7q",
+          "name": "Orders",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_ettsk3n4",
+          "name": "Remove Promotion",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_b7r4a9qs",
+          "name": "Submit Adyen",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 0
+    },
+    {
+      "id": "feat_9nu9ikfa",
+      "name": "Add",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_fyv9uj9q",
+          "name": "Actions",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_rjabn89e",
+          "name": "Add",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_jsrx96dk",
+          "name": "Option",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_cebvt4wx",
+          "name": "Options Keymap",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_n3qz49wj",
+          "name": "Submit",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_3657gv48",
+          "name": "Update",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 1
+    },
+    {
+      "id": "feat_pw5bbqxj",
+      "name": "Address Book",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 2
+    },
+    {
+      "id": "feat_g5j5z5jy",
+      "name": "Adyen Payments",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 3
+    },
+    {
+      "id": "feat_kwcg6v4e",
+      "name": "Agent Cart Management",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 4
+    },
+    {
+      "id": "feat_h9xyn9r9",
+      "name": "Agent Catalog Access",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 5
+    },
+    {
+      "id": "feat_33pe82ps",
+      "name": "Agent Checkout Sessions",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 6
+    },
+    {
+      "id": "feat_umfgvcci",
+      "name": "Agent Commerce API",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 7
+    },
+    {
+      "id": "feat_dfkmvfms",
+      "name": "Backend routing is file-based.",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_zgmez8kp",
+          "name": "Document",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_ns94aehm",
+          "name": "Ids Sales Channels",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_ufuk4pa3",
+          "name": "Load Pricing",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_un8ed2aa",
+          "name": "Payload Ids",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_8r3yu6bk",
+          "name": "Pricing",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_g9gwt9ir",
+          "name": "Related Ids",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 8
+    },
+    {
+      "id": "feat_9zfyaynj",
+      "name": "Catalog Filtering",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 9
+    },
+    {
+      "id": "feat_ic29tc3n",
+      "name": "Category Browsing",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 10
+    },
+    {
+      "id": "feat_tnp2dq9y",
+      "name": "Collection Browsing",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 11
+    },
+    {
+      "id": "feat_3a96rmtg",
+      "name": "Collections, tags and extra options",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_kthy2i66",
+          "name": "Collection",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_n6irbk62",
+          "name": "Fetch Options",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_rwpmirvm",
+          "name": "Options",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_urdqexx7",
+          "name": "Options Picker",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_adwi7uzv",
+          "name": "Retrieve Collection",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_dbpvuvyp",
+          "name": "Toggle",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 12
+    },
+    {
+      "id": "feat_2ebxvber",
+      "name": "Commerce MCP Endpoint",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 13
+    },
+    {
+      "id": "feat_h9s9wep9",
+      "name": "Customer Accounts",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 14
+    },
+    {
+      "id": "feat_thqtbhsi",
+      "name": "Direct Checkout Links",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 15
+    },
+    {
+      "id": "feat_putfrymn",
+      "name": "Email Verification",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 16
+    },
+    {
+      "id": "feat_enazkhag",
+      "name": "Free Shipping Progress",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 17
+    },
+    {
+      "id": "feat_4szmzsz7",
+      "name": "Gift Cards",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 18
+    },
+    {
+      "id": "feat_ii5wragu",
+      "name": "Language Selection",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 19
+    },
+    {
+      "id": "feat_xk8w5vdj",
+      "name": "LLM Store Guide",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 20
+    },
+    {
+      "id": "feat_75654x7x",
+      "name": "Make sure the search index caught up",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_835sxz9s",
+          "name": "Clear",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_3hcy2zum",
+          "name": "Generate Metadata",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_9pryh2bv",
+          "name": "Pricing",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_ppjxkev2",
+          "name": "Search",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_rj4ejx2b",
+          "name": "Search Box",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_sbdn9euu",
+          "name": "Use Search Settled",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 21
+    },
+    {
+      "id": "feat_8yi4m3c9",
+      "name": "Markdown Product Feeds",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 22
+    },
+    {
+      "id": "feat_rpasfnhx",
+      "name": "Medusa Cloud-related environment variables",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_kxmez94i",
+          "name": "Check Env Variables",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_8u8cmtry",
+          "name": "Middleware",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_awsd5f88",
+          "name": "Mount",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_q7eihiyq",
+          "name": "Related Products",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_ffmg2v2u",
+          "name": "Result",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_czr9va6u",
+          "name": "Skeleton Related Products",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 23
+    },
+    {
+      "id": "feat_7qcr2m56",
+      "name": "Multi-Step Checkout",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 24
+    },
+    {
+      "id": "feat_4wj5bxcq",
+      "name": "npx medusa exec ./src/scripts/seed-demo-products.ts",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_dr8wb2mx",
+          "name": "Initial Seed",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_wnyam8nw",
+          "name": "Make Random",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_q47sn9qy",
+          "name": "Min Priced",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_e94575ff",
+          "name": "Pick Some",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_yt4bswq6",
+          "name": "Seed Demo Products",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_6kzxrrtj",
+          "name": "Sort Products",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 25
+    },
+    {
+      "id": "feat_rcqsxfsk",
+      "name": "Operations",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_mxxxsh8d",
+          "name": "Cancel",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_cr48swhm",
+          "name": "Create",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_pfzq6asp",
+          "name": "Idempotency",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_scq669yu",
+          "name": "Lookup Catalog",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_qx866eym",
+          "name": "Search Catalog",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_vgcjsmpv",
+          "name": "Update",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 26
+    },
+    {
+      "id": "feat_yu8xs27a",
+      "name": "Order History",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 27
+    },
+    {
+      "id": "feat_4wv986xj",
+      "name": "Order Placement",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 28
+    },
+    {
+      "id": "feat_xmcxxzse",
+      "name": "Order Transfers",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 29
+    },
+    {
+      "id": "feat_yigsjfc8",
+      "name": "Payment Method Selection",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 30
+    },
+    {
+      "id": "feat_6zpe59pc",
+      "name": "Prerequisites that already exist in the project",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_94grjwhn",
+          "name": "Complete Login",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_qch4wn26",
+          "name": "Login",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_rvkfw4c3",
+          "name": "Request Verification Email",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_ktcpe9w5",
+          "name": "Retrieve",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_xt7yw5y9",
+          "name": "Signup",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_sne64q67",
+          "name": "Update",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 31
+    },
+    {
+      "id": "feat_cf4gumw7",
+      "name": "Price Range Filtering",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 32
+    },
+    {
+      "id": "feat_65x2mahb",
+      "name": "Product Catalog",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 33
+    },
+    {
+      "id": "feat_74iqfy8d",
+      "name": "Product Details",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 34
+    },
+    {
+      "id": "feat_tnbzygt6",
+      "name": "Product Search",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 35
+    },
+    {
+      "id": "feat_9b8ispy2",
+      "name": "Product Sorting",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 36
+    },
+    {
+      "id": "feat_cnrpx8rh",
+      "name": "Product Specifications",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 37
+    },
+    {
+      "id": "feat_m3m96aqe",
+      "name": "Profile Management",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 38
+    },
+    {
+      "id": "feat_yakn3t3d",
+      "name": "Promotion Codes",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 39
+    },
+    {
+      "id": "feat_686kev64",
+      "name": "query: true",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_ps5nfmf6",
+          "name": "Adyen Session",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_422zbt75",
+          "name": "Lookup Catalog",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_96ihymwc",
+          "name": "Retrieve",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_xysea73p",
+          "name": "Search Catalog",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_vnknaq4r",
+          "name": "Submit Adyen",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_s7mvdn97",
+          "name": "Update",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 40
+    },
+    {
+      "id": "feat_6gh4qd7b",
+      "name": "Regional Shopping",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 41
+    },
+    {
+      "id": "feat_q2vxvvsn",
+      "name": "Related Product Recommendations",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 42
+    },
+    {
+      "id": "feat_e423vyr3",
+      "name": "Sale Product Filtering",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 43
+    },
+    {
+      "id": "feat_dif5ue2c",
+      "name": "Saved Checkout Addresses",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 44
+    },
+    {
+      "id": "feat_r7w272cn",
+      "name": "Shipping Method Selection",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 45
+    },
+    {
+      "id": "feat_q4jjsiqx",
+      "name": "Shopping Cart",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 46
+    },
+    {
+      "id": "feat_5v2ypkcs",
+      "name": "Stock Availability",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 47
+    },
+    {
+      "id": "feat_ghid54cg",
+      "name": "Store Policies",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 48
+    },
+    {
+      "id": "feat_psp2hyex",
+      "name": "Stripe Payments",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 49
+    },
+    {
+      "id": "feat_wq9f4s66",
+      "name": "TODO: batchLinkProductsToCategoryWorkflow emits nothing.",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_d53s2xt7",
+          "name": "Category",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_satisr86",
+          "name": "Min Priced",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_6vnnptje",
+          "name": "Paginated Products",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_fc99h2wz",
+          "name": "Pick Some",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_bk4hymny",
+          "name": "Seed Demo Products",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_94gmxaab",
+          "name": "Sort Products",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 50
+    },
+    {
+      "id": "feat_gebgkab2",
+      "name": "Update",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [
+        {
+          "id": "feat_csmudqpa",
+          "name": "Add",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 0
+        },
+        {
+          "id": "feat_hgkhy5i4",
+          "name": "Clear",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 1
+        },
+        {
+          "id": "feat_jez3me9n",
+          "name": "Delete",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 2
+        },
+        {
+          "id": "feat_zau8prn2",
+          "name": "Profile",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 3
+        },
+        {
+          "id": "feat_4yjwz2bm",
+          "name": "Retrieve",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 4
+        },
+        {
+          "id": "feat_r4fhbc5s",
+          "name": "Update",
+          "status": "Not Mapped",
+          "low_confidence": false,
+          "function_count": 0,
+          "functions_checked": 0,
+          "covered_count": 0,
+          "coverage_pct": null,
+          "test_count": 0,
+          "passing_test_count": 0,
+          "failing_test_count": 0,
+          "test_result": "no_tests",
+          "issues": {
+            "code_bugs": 0,
+            "security_blockers": 0,
+            "other": 0
+          },
+          "risky_functions": {
+            "total": 0,
+            "tested": 0
+          },
+          "tier": "guess",
+          "position": 5
+        }
+      ],
+      "tier": "guess",
+      "position": 51
+    },
+    {
+      "id": "feat_dzz9gs58",
+      "name": "Variant Selection",
+      "status": "Not Mapped",
+      "low_confidence": true,
+      "function_count": 0,
+      "functions_checked": 0,
+      "covered_count": 0,
+      "coverage_pct": null,
+      "test_count": 0,
+      "passing_test_count": 0,
+      "failing_test_count": 0,
+      "run_confirmed_test_count": 0,
+      "test_lag_count": 0,
+      "blast_radius": 0,
+      "flow": {
+        "depth": null,
+        "leads_to": []
+      },
+      "issues": {
+        "code_bugs": 0,
+        "security_blockers": 0,
+        "other": 0
+      },
+      "risky_functions": {
+        "total": 0,
+        "tested": 0
+      },
+      "test_result": "no_tests",
+      "activity": {
+        "last_changed_at": null,
+        "commits": 0,
+        "window_days": 30,
+        "functions_changed": 0
+      },
+      "owner_teams": null,
+      "risk": {
+        "level": "unknown",
+        "reasons": []
+      },
+      "subfeatures": [],
+      "tier": "guess",
+      "position": 52
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-06",
+      "features_by_status": {
+        "Blocked": 0,
+        "At Risk": 0,
+        "In Progress": 0,
+        "Ready": 0,
+        "Not Mapped": 0
+      },
+      "coverage_pct": null,
+      "tests": 2,
+      "failing_tests": 0,
+      "test_lag": 0,
+      "critical_issues": 0,
+      "code_changes": null,
+      "completion_pct": null,
+      "completion_measured": null,
+      "vision_features": null,
+      "decisions": null,
+      "meets_requirements": null
+    }
+  ]
+}

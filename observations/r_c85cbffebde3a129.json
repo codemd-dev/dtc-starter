@@ -1,0 +1,2265 @@
+{
+  "schema": "codemd.feature-observations/v1",
+  "run_id": "r_c85cbffebde3a129",
+  "generated_at": "2026-11-06T19:06:26.366Z",
+  "provenance": {
+    "commit": "4a1d53dc434ed124a78c4e2c9f312e1f47d4e9eb",
+    "branch": "main",
+    "discovery_model": "codex:default",
+    "prompt_version": "topdown-2",
+    "extension_version": "0.0.547",
+    "seeded_from_canonical": false
+  },
+  "features": [
+    {
+      "local_id": "feat_686kev64",
+      "product_feature_id": "feat_686kev64",
+      "canonical_id": null,
+      "name": "query: true",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_3a96rmtg",
+      "product_feature_id": "feat_3a96rmtg",
+      "canonical_id": null,
+      "name": "Collections, tags and extra options",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_4wj5bxcq",
+      "product_feature_id": "feat_4wj5bxcq",
+      "canonical_id": null,
+      "name": "npx medusa exec ./src/scripts/seed-demo-products.ts",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_dfkmvfms",
+      "product_feature_id": "feat_dfkmvfms",
+      "canonical_id": null,
+      "name": "Backend routing is file-based.",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_wq9f4s66",
+      "product_feature_id": "feat_wq9f4s66",
+      "canonical_id": null,
+      "name": "TODO: batchLinkProductsToCategoryWorkflow emits nothing.",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_gebgkab2",
+      "product_feature_id": "feat_gebgkab2",
+      "canonical_id": null,
+      "name": "Update",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_75654x7x",
+      "product_feature_id": "feat_75654x7x",
+      "canonical_id": null,
+      "name": "Make sure the search index caught up",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_rcqsxfsk",
+      "product_feature_id": "feat_rcqsxfsk",
+      "canonical_id": null,
+      "name": "Operations",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_rpasfnhx",
+      "product_feature_id": "feat_rpasfnhx",
+      "canonical_id": null,
+      "name": "Medusa Cloud-related environment variables",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_6zpe59pc",
+      "product_feature_id": "feat_6zpe59pc",
+      "canonical_id": null,
+      "name": "Prerequisites that already exist in the project",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_9nu9ikfa",
+      "product_feature_id": "feat_9nu9ikfa",
+      "canonical_id": null,
+      "name": "Add",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_2pa8iv49",
+      "product_feature_id": "feat_2pa8iv49",
+      "canonical_id": null,
+      "name": "A row that returns no document leaves",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_96ihymwc",
+      "product_feature_id": "feat_96ihymwc",
+      "canonical_id": null,
+      "name": "Retrieve",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_686kev64",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_s7mvdn97",
+      "product_feature_id": "feat_s7mvdn97",
+      "canonical_id": null,
+      "name": "Update",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_686kev64",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ps5nfmf6",
+      "product_feature_id": "feat_ps5nfmf6",
+      "canonical_id": null,
+      "name": "Adyen Session",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_686kev64",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_vnknaq4r",
+      "product_feature_id": "feat_vnknaq4r",
+      "canonical_id": null,
+      "name": "Submit Adyen",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_686kev64",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_422zbt75",
+      "product_feature_id": "feat_422zbt75",
+      "canonical_id": null,
+      "name": "Lookup Catalog",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_686kev64",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_xysea73p",
+      "product_feature_id": "feat_xysea73p",
+      "canonical_id": null,
+      "name": "Search Catalog",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_686kev64",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_kthy2i66",
+      "product_feature_id": "feat_kthy2i66",
+      "canonical_id": null,
+      "name": "Collection",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_3a96rmtg",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_rwpmirvm",
+      "product_feature_id": "feat_rwpmirvm",
+      "canonical_id": null,
+      "name": "Options",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_3a96rmtg",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_n6irbk62",
+      "product_feature_id": "feat_n6irbk62",
+      "canonical_id": null,
+      "name": "Fetch Options",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_3a96rmtg",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_urdqexx7",
+      "product_feature_id": "feat_urdqexx7",
+      "canonical_id": null,
+      "name": "Options Picker",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_3a96rmtg",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_dbpvuvyp",
+      "product_feature_id": "feat_dbpvuvyp",
+      "canonical_id": null,
+      "name": "Toggle",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_3a96rmtg",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_adwi7uzv",
+      "product_feature_id": "feat_adwi7uzv",
+      "canonical_id": null,
+      "name": "Retrieve Collection",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_3a96rmtg",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_6kzxrrtj",
+      "product_feature_id": "feat_6kzxrrtj",
+      "canonical_id": null,
+      "name": "Sort Products",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_4wj5bxcq",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_yt4bswq6",
+      "product_feature_id": "feat_yt4bswq6",
+      "canonical_id": null,
+      "name": "Seed Demo Products",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_4wj5bxcq",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_e94575ff",
+      "product_feature_id": "feat_e94575ff",
+      "canonical_id": null,
+      "name": "Pick Some",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_4wj5bxcq",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_wnyam8nw",
+      "product_feature_id": "feat_wnyam8nw",
+      "canonical_id": null,
+      "name": "Make Random",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_4wj5bxcq",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_dr8wb2mx",
+      "product_feature_id": "feat_dr8wb2mx",
+      "canonical_id": null,
+      "name": "Initial Seed",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_4wj5bxcq",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_q47sn9qy",
+      "product_feature_id": "feat_q47sn9qy",
+      "canonical_id": null,
+      "name": "Min Priced",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_4wj5bxcq",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_8r3yu6bk",
+      "product_feature_id": "feat_8r3yu6bk",
+      "canonical_id": null,
+      "name": "Pricing",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_dfkmvfms",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ufuk4pa3",
+      "product_feature_id": "feat_ufuk4pa3",
+      "canonical_id": null,
+      "name": "Load Pricing",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_dfkmvfms",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_zgmez8kp",
+      "product_feature_id": "feat_zgmez8kp",
+      "canonical_id": null,
+      "name": "Document",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_dfkmvfms",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ns94aehm",
+      "product_feature_id": "feat_ns94aehm",
+      "canonical_id": null,
+      "name": "Ids Sales Channels",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_dfkmvfms",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_g9gwt9ir",
+      "product_feature_id": "feat_g9gwt9ir",
+      "canonical_id": null,
+      "name": "Related Ids",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_dfkmvfms",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_un8ed2aa",
+      "product_feature_id": "feat_un8ed2aa",
+      "canonical_id": null,
+      "name": "Payload Ids",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_dfkmvfms",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_94gmxaab",
+      "product_feature_id": "feat_94gmxaab",
+      "canonical_id": null,
+      "name": "Sort Products",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_wq9f4s66",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_d53s2xt7",
+      "product_feature_id": "feat_d53s2xt7",
+      "canonical_id": null,
+      "name": "Category",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_wq9f4s66",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_satisr86",
+      "product_feature_id": "feat_satisr86",
+      "canonical_id": null,
+      "name": "Min Priced",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_wq9f4s66",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_6vnnptje",
+      "product_feature_id": "feat_6vnnptje",
+      "canonical_id": null,
+      "name": "Paginated Products",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_wq9f4s66",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_bk4hymny",
+      "product_feature_id": "feat_bk4hymny",
+      "canonical_id": null,
+      "name": "Seed Demo Products",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_wq9f4s66",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_fc99h2wz",
+      "product_feature_id": "feat_fc99h2wz",
+      "canonical_id": null,
+      "name": "Pick Some",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_wq9f4s66",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_r4fhbc5s",
+      "product_feature_id": "feat_r4fhbc5s",
+      "canonical_id": null,
+      "name": "Update",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_gebgkab2",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_4yjwz2bm",
+      "product_feature_id": "feat_4yjwz2bm",
+      "canonical_id": null,
+      "name": "Retrieve",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_gebgkab2",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_zau8prn2",
+      "product_feature_id": "feat_zau8prn2",
+      "canonical_id": null,
+      "name": "Profile",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_gebgkab2",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_hgkhy5i4",
+      "product_feature_id": "feat_hgkhy5i4",
+      "canonical_id": null,
+      "name": "Clear",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_gebgkab2",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_csmudqpa",
+      "product_feature_id": "feat_csmudqpa",
+      "canonical_id": null,
+      "name": "Add",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_gebgkab2",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_jez3me9n",
+      "product_feature_id": "feat_jez3me9n",
+      "canonical_id": null,
+      "name": "Delete",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_gebgkab2",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ppjxkev2",
+      "product_feature_id": "feat_ppjxkev2",
+      "canonical_id": null,
+      "name": "Search",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_75654x7x",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_9pryh2bv",
+      "product_feature_id": "feat_9pryh2bv",
+      "canonical_id": null,
+      "name": "Pricing",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_75654x7x",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_sbdn9euu",
+      "product_feature_id": "feat_sbdn9euu",
+      "canonical_id": null,
+      "name": "Use Search Settled",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_75654x7x",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_rj4ejx2b",
+      "product_feature_id": "feat_rj4ejx2b",
+      "canonical_id": null,
+      "name": "Search Box",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_75654x7x",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_835sxz9s",
+      "product_feature_id": "feat_835sxz9s",
+      "canonical_id": null,
+      "name": "Clear",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_75654x7x",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_3hcy2zum",
+      "product_feature_id": "feat_3hcy2zum",
+      "canonical_id": null,
+      "name": "Generate Metadata",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_75654x7x",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_cr48swhm",
+      "product_feature_id": "feat_cr48swhm",
+      "canonical_id": null,
+      "name": "Create",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rcqsxfsk",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_vgcjsmpv",
+      "product_feature_id": "feat_vgcjsmpv",
+      "canonical_id": null,
+      "name": "Update",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rcqsxfsk",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_mxxxsh8d",
+      "product_feature_id": "feat_mxxxsh8d",
+      "canonical_id": null,
+      "name": "Cancel",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rcqsxfsk",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_pfzq6asp",
+      "product_feature_id": "feat_pfzq6asp",
+      "canonical_id": null,
+      "name": "Idempotency",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rcqsxfsk",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_qx866eym",
+      "product_feature_id": "feat_qx866eym",
+      "canonical_id": null,
+      "name": "Search Catalog",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rcqsxfsk",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_scq669yu",
+      "product_feature_id": "feat_scq669yu",
+      "canonical_id": null,
+      "name": "Lookup Catalog",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rcqsxfsk",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_kxmez94i",
+      "product_feature_id": "feat_kxmez94i",
+      "canonical_id": null,
+      "name": "Check Env Variables",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rpasfnhx",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_czr9va6u",
+      "product_feature_id": "feat_czr9va6u",
+      "canonical_id": null,
+      "name": "Skeleton Related Products",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rpasfnhx",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_q7eihiyq",
+      "product_feature_id": "feat_q7eihiyq",
+      "canonical_id": null,
+      "name": "Related Products",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rpasfnhx",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_8u8cmtry",
+      "product_feature_id": "feat_8u8cmtry",
+      "canonical_id": null,
+      "name": "Middleware",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rpasfnhx",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_awsd5f88",
+      "product_feature_id": "feat_awsd5f88",
+      "canonical_id": null,
+      "name": "Mount",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rpasfnhx",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ffmg2v2u",
+      "product_feature_id": "feat_ffmg2v2u",
+      "canonical_id": null,
+      "name": "Result",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_rpasfnhx",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_sne64q67",
+      "product_feature_id": "feat_sne64q67",
+      "canonical_id": null,
+      "name": "Update",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_6zpe59pc",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_xt7yw5y9",
+      "product_feature_id": "feat_xt7yw5y9",
+      "canonical_id": null,
+      "name": "Signup",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_6zpe59pc",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_qch4wn26",
+      "product_feature_id": "feat_qch4wn26",
+      "canonical_id": null,
+      "name": "Login",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_6zpe59pc",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ktcpe9w5",
+      "product_feature_id": "feat_ktcpe9w5",
+      "canonical_id": null,
+      "name": "Retrieve",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_6zpe59pc",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_94grjwhn",
+      "product_feature_id": "feat_94grjwhn",
+      "canonical_id": null,
+      "name": "Complete Login",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_6zpe59pc",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_rvkfw4c3",
+      "product_feature_id": "feat_rvkfw4c3",
+      "canonical_id": null,
+      "name": "Request Verification Email",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_6zpe59pc",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_rjabn89e",
+      "product_feature_id": "feat_rjabn89e",
+      "canonical_id": null,
+      "name": "Add",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_9nu9ikfa",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_3657gv48",
+      "product_feature_id": "feat_3657gv48",
+      "canonical_id": null,
+      "name": "Update",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_9nu9ikfa",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_n3qz49wj",
+      "product_feature_id": "feat_n3qz49wj",
+      "canonical_id": null,
+      "name": "Submit",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_9nu9ikfa",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_jsrx96dk",
+      "product_feature_id": "feat_jsrx96dk",
+      "canonical_id": null,
+      "name": "Option",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_9nu9ikfa",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_fyv9uj9q",
+      "product_feature_id": "feat_fyv9uj9q",
+      "canonical_id": null,
+      "name": "Actions",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_9nu9ikfa",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_cebvt4wx",
+      "product_feature_id": "feat_cebvt4wx",
+      "canonical_id": null,
+      "name": "Options Keymap",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_9nu9ikfa",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ity2vu22",
+      "product_feature_id": "feat_ity2vu22",
+      "canonical_id": null,
+      "name": "Adyen Session",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_2pa8iv49",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_b7r4a9qs",
+      "product_feature_id": "feat_b7r4a9qs",
+      "canonical_id": null,
+      "name": "Submit Adyen",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_2pa8iv49",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_6gbqiq7q",
+      "product_feature_id": "feat_6gbqiq7q",
+      "canonical_id": null,
+      "name": "Orders",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_2pa8iv49",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_rjvh5cwr",
+      "product_feature_id": "feat_rjvh5cwr",
+      "canonical_id": null,
+      "name": "Add Promotion",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_2pa8iv49",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ettsk3n4",
+      "product_feature_id": "feat_ettsk3n4",
+      "canonical_id": null,
+      "name": "Remove Promotion",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_2pa8iv49",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_r8picjzz",
+      "product_feature_id": "feat_r8picjzz",
+      "canonical_id": null,
+      "name": "Discount",
+      "description": "",
+      "aliases": [],
+      "parent_local_id": "feat_2pa8iv49",
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_65x2mahb",
+      "product_feature_id": "feat_65x2mahb",
+      "canonical_id": null,
+      "name": "Product Catalog",
+      "description": "Shoppers can browse a paginated catalog of available products with regional pricing and inventory.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ic29tc3n",
+      "product_feature_id": "feat_ic29tc3n",
+      "canonical_id": null,
+      "name": "Category Browsing",
+      "description": "Shoppers can browse products grouped under hierarchical product categories.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_tnp2dq9y",
+      "product_feature_id": "feat_tnp2dq9y",
+      "canonical_id": null,
+      "name": "Collection Browsing",
+      "description": "Shoppers can open curated product collections by their public handle.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_tnbzygt6",
+      "product_feature_id": "feat_tnbzygt6",
+      "canonical_id": null,
+      "name": "Product Search",
+      "description": "Shoppers can search the indexed product catalog from a live search drawer or dedicated results page.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_9zfyaynj",
+      "product_feature_id": "feat_9zfyaynj",
+      "canonical_id": null,
+      "name": "Catalog Filtering",
+      "description": "Shoppers can refine the catalog by product options, price range, and current sale status.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_9b8ispy2",
+      "product_feature_id": "feat_9b8ispy2",
+      "canonical_id": null,
+      "name": "Product Sorting",
+      "description": "Shoppers can order catalog results by newest arrival or ascending and descending price.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_74iqfy8d",
+      "product_feature_id": "feat_74iqfy8d",
+      "canonical_id": null,
+      "name": "Product Details",
+      "description": "Shoppers can view product descriptions, image galleries, prices, availability, attributes, delivery information, and related products.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_dzz9gs58",
+      "product_feature_id": "feat_dzz9gs58",
+      "canonical_id": null,
+      "name": "Variant Selection",
+      "description": "Shoppers can choose product options to select a purchasable, in-stock variant whose identifier is reflected in the URL.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_q4jjsiqx",
+      "product_feature_id": "feat_q4jjsiqx",
+      "canonical_id": null,
+      "name": "Shopping Cart",
+      "description": "Shoppers can add products to a persistent cart, inspect totals, change quantities, and remove line items.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_yakn3t3d",
+      "product_feature_id": "feat_yakn3t3d",
+      "canonical_id": null,
+      "name": "Promotion Codes",
+      "description": "Shoppers can apply and remove promotion codes from their cart before purchase.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_4szmzsz7",
+      "product_feature_id": "feat_4szmzsz7",
+      "canonical_id": null,
+      "name": "Gift Cards",
+      "description": "Shoppers can apply and remove gift-card codes, including completing checkout when a gift card covers the full total.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_6gh4qd7b",
+      "product_feature_id": "feat_6gh4qd7b",
+      "canonical_id": null,
+      "name": "Regional Shopping",
+      "description": "Shoppers can select a shipping country while the storefront automatically resolves the matching sales region, currency, pricing, and cart.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ii5wragu",
+      "product_feature_id": "feat_ii5wragu",
+      "canonical_id": null,
+      "name": "Language Selection",
+      "description": "Shoppers can choose from backend-provided locales and refresh the storefront in the selected language context.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_7qcr2m56",
+      "product_feature_id": "feat_7qcr2m56",
+      "canonical_id": null,
+      "name": "Multi-Step Checkout",
+      "description": "Shoppers can progress through address, delivery, payment, review, and order-placement steps.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_dif5ue2c",
+      "product_feature_id": "feat_dif5ue2c",
+      "canonical_id": null,
+      "name": "Saved Checkout Addresses",
+      "description": "Signed-in shoppers can select an existing account address while entering checkout details.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_r7w272cn",
+      "product_feature_id": "feat_r7w272cn",
+      "canonical_id": null,
+      "name": "Shipping Method Selection",
+      "description": "Shoppers can compare available shipping options and select one for the current cart.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_yigsjfc8",
+      "product_feature_id": "feat_yigsjfc8",
+      "canonical_id": null,
+      "name": "Payment Method Selection",
+      "description": "Shoppers can choose an available payment provider and enter the provider-specific payment details needed for checkout.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_psp2hyex",
+      "product_feature_id": "feat_psp2hyex",
+      "canonical_id": null,
+      "name": "Stripe Payments",
+      "description": "Shoppers can pay through Stripe and return from off-site authorization to retry or complete their order securely.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_g5j5z5jy",
+      "product_feature_id": "feat_g5j5z5jy",
+      "canonical_id": null,
+      "name": "Adyen Payments",
+      "description": "Shoppers can submit Adyen payments, including redirect-based bank authentication returns.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_4wv986xj",
+      "product_feature_id": "feat_4wv986xj",
+      "canonical_id": null,
+      "name": "Order Placement",
+      "description": "Shoppers can submit a reviewed cart as an order and reach an order-confirmation page.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_h9s9wep9",
+      "product_feature_id": "feat_h9s9wep9",
+      "canonical_id": null,
+      "name": "Customer Accounts",
+      "description": "Customers can create verified accounts, sign in, inspect an account dashboard, and sign out.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_putfrymn",
+      "product_feature_id": "feat_putfrymn",
+      "canonical_id": null,
+      "name": "Email Verification",
+      "description": "New customers receive a verification flow and can confirm their email before signing in.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_m3m96aqe",
+      "product_feature_id": "feat_m3m96aqe",
+      "canonical_id": null,
+      "name": "Profile Management",
+      "description": "Customers can update stored personal information such as their name, phone number, and billing address.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_pw5bbqxj",
+      "product_feature_id": "feat_pw5bbqxj",
+      "canonical_id": null,
+      "name": "Address Book",
+      "description": "Customers can add, edit, and delete reusable delivery addresses in their account.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_yu8xs27a",
+      "product_feature_id": "feat_yu8xs27a",
+      "canonical_id": null,
+      "name": "Order History",
+      "description": "Customers can browse prior orders and open detailed views of their items, payment, shipping, and totals.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_xmcxxzse",
+      "product_feature_id": "feat_xmcxxzse",
+      "canonical_id": null,
+      "name": "Order Transfers",
+      "description": "Customers can request that an existing order be connected to their account, while recipients can accept or decline the transfer.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_ghid54cg",
+      "product_feature_id": "feat_ghid54cg",
+      "canonical_id": null,
+      "name": "Store Policies",
+      "description": "Shoppers can view region-specific shipping, returns, privacy, and terms information exposed by the storefront.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_thqtbhsi",
+      "product_feature_id": "feat_thqtbhsi",
+      "canonical_id": null,
+      "name": "Direct Checkout Links",
+      "description": "A caller can open a buy permalink containing variant IDs and quantities to create a cart and redirect directly into checkout.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_umfgvcci",
+      "product_feature_id": "feat_umfgvcci",
+      "canonical_id": null,
+      "name": "Agent Commerce API",
+      "description": "Automated clients can discover and operate a versioned commerce API covering catalogs, carts, and checkout sessions.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_h9xyn9r9",
+      "product_feature_id": "feat_h9xyn9r9",
+      "canonical_id": null,
+      "name": "Agent Catalog Access",
+      "description": "Automated clients can search the catalog or look up exact products through UCP endpoints.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_kwcg6v4e",
+      "product_feature_id": "feat_kwcg6v4e",
+      "canonical_id": null,
+      "name": "Agent Cart Management",
+      "description": "Automated clients can create, retrieve, update, or cancel carts through the UCP API.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_33pe82ps",
+      "product_feature_id": "feat_33pe82ps",
+      "canonical_id": null,
+      "name": "Agent Checkout Sessions",
+      "description": "Automated clients can create, inspect, update, complete, or cancel checkout sessions through the UCP API.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_2ebxvber",
+      "product_feature_id": "feat_2ebxvber",
+      "canonical_id": null,
+      "name": "Commerce MCP Endpoint",
+      "description": "MCP-compatible agents can invoke the commerce operations through a JSON-RPC endpoint.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_cf4gumw7",
+      "product_feature_id": "feat_cf4gumw7",
+      "canonical_id": null,
+      "name": "Price Range Filtering",
+      "description": "Shoppers can restrict catalog results to a selected minimum and maximum price.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_e423vyr3",
+      "product_feature_id": "feat_e423vyr3",
+      "canonical_id": null,
+      "name": "Sale Product Filtering",
+      "description": "Shoppers can limit catalog results to products whose current price is discounted.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_5v2ypkcs",
+      "product_feature_id": "feat_5v2ypkcs",
+      "canonical_id": null,
+      "name": "Stock Availability",
+      "description": "Product pages show whether the selected variant is in stock or unavailable.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_cnrpx8rh",
+      "product_feature_id": "feat_cnrpx8rh",
+      "canonical_id": null,
+      "name": "Product Specifications",
+      "description": "Product pages expose material, origin, type, weight, and dimensions in an expandable information section.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_q2vxvvsn",
+      "product_feature_id": "feat_q2vxvvsn",
+      "canonical_id": null,
+      "name": "Related Product Recommendations",
+      "description": "Product pages recommend other products sharing the current product's collection or tags.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_enazkhag",
+      "product_feature_id": "feat_enazkhag",
+      "canonical_id": null,
+      "name": "Free Shipping Progress",
+      "description": "The cart displays how much more must be purchased to unlock a conditional free-shipping rate.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_8yi4m3c9",
+      "product_feature_id": "feat_8yi4m3c9",
+      "canonical_id": null,
+      "name": "Markdown Product Feeds",
+      "description": "API callers and agents can request a Markdown representation of a product containing purchasable variant details.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    },
+    {
+      "local_id": "feat_xk8w5vdj",
+      "product_feature_id": "feat_xk8w5vdj",
+      "canonical_id": null,
+      "name": "LLM Store Guide",
+      "description": "The storefront serves an llms.txt guide describing its shopping URLs, countries, catalog links, policies, and agent interfaces.",
+      "aliases": [],
+      "parent_local_id": null,
+      "catalog_status": "likely",
+      "entry_point_refs": [],
+      "function_hashes": [],
+      "mapping_quality": null,
+      "wired": {
+        "connected": 0,
+        "total": 0
+      },
+      "low_confidence": false
+    }
+  ]
+}

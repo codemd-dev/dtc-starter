@@ -1,0 +1,42 @@
+{
+  "schema": "codemd.security-findings/v1",
+  "source": {
+    "branch": "main",
+    "commit": "4a1d53dc434ed124a78c4e2c9f312e1f47d4e9eb"
+  },
+  "findings": [
+    {
+      "key": "87b5cb86766fb173f249",
+      "title": "Universal Commerce Protocol MCP endpoint attack path",
+      "feature": "UCP MCP Endpoint",
+      "confidence": "HIGH",
+      "ship_blocker": false,
+      "verified": false,
+      "status": "open",
+      "outcome": "Potential remote code execution or data exposure via unvalidated JSON-RPC requests",
+      "remediation": "1. Implement strict JSON-RPC request validation using schema validation (e.g., Zod) 2. Add input sanitization for all tool parameters 3. Ensure proper error handling to avoid information leakage 4. Validate that each tool properly handles edge cases and invalid inputs 5. Consider rate limiting and authentication for the MCP endpoint",
+      "symbol": "POST request handler",
+      "file": "apps/storefront/src/app/ucp/mcp/route.ts",
+      "attack_path": [
+        {
+          "symbol": "POST request handler",
+          "file": "apps/storefront/src/app/ucp/mcp/route.ts"
+        },
+        {
+          "symbol": "handleMcpRequest",
+          "file": "apps/storefront/src/lib/ucp/mcp.ts"
+        },
+        {
+          "symbol": "handleMcpRequest",
+          "file": "apps/storefront/src/lib/ucp/mcp.ts"
+        },
+        {
+          "symbol": "tools/call",
+          "file": "apps/storefront/src/lib/ucp/mcp.ts"
+        }
+      ],
+      "validation_verdict": "",
+      "first_seen": "2026-11-06T00:13:41.126Z"
+    }
+  ]
+}
