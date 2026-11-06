@@ -86,12 +86,14 @@ cp apps/backend/.env.template apps/backend/.env
 DATABASE_URL=postgres://postgres:@localhost:5432/medusa-dtc-starter
 ```
 
+
 4. Run migrations (this also seeds initial store data):
 
 ```bash
 cd apps/backend
 pnpm medusa db:migrate
 ```
+
 
 5. Add admin user:
 
