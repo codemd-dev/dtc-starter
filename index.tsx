@@ -1,58 +1,51 @@
-import { clx } from "@modules/common/components/ui"
+import { Suspense } from "react"
 
-import { getProductPrice } from "@lib/util/get-product-price"
+import SkeletonProductGrid from "@modules/skeletons/templates/skeleton-product-grid"
+import RefinementList from "@modules/store/components/refinement-list"
+import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
+import PaginatedProducts from "@modules/store/templates/paginated-products"
 import { HttpTypes } from "@medusajs/types"
+import { OptionValueIds } from "@lib/util/product-option-filters"
 
-export default function ProductPrice({
-  product,
-  variant,
+export default function CollectionTemplate({
+  sortBy,
+  collection,
+  page,
+  countryCode,
+  optionValueIds,
 }: {
-  product: HttpTypes.StoreProduct
-  variant?: HttpTypes.StoreProductVariant
+  sortBy?: SortOptions
+  collection: HttpTypes.StoreCollection
+  page?: string
+  countryCode: string
+  optionValueIds?: OptionValueIds
 }) {
-  const { cheapestPrice, variantPrice } = getProductPrice({
-    product,
-    variantId: variant?.id,
-  })
-
-  const selectedPrice = variant ? variantPrice : cheapestPrice
-
-  if (!selectedPrice) {
-    return <div className="block w-32 h-9 bg-gray-100 animate-pulse" />
-  }
+  const pageNumber = page ? parseInt(page) : 1
+  const sort = sortBy || "created_at"
 
   return (
-    <div className="flex flex-col text-ui-fg-base">
-      <span
-        className={clx("text-xl-semi", {
-          "text-ui-fg-interactive": selectedPrice.price_type === "sale",
-        })}
-      >
-        {!variant && "From "}
-        <span
-          data-testid="product-price"
-          data-value={selectedPrice.calculated_price_number}
+    <div className="flex flex-col small:flex-row small:items-start py-6 content-container">
+      <RefinementList sortBy={sort} hideOptionsPicker />
+      <div className="w-full">
+        <div className="mb-8 text-2xl-semi">
+          <h1>{collection.title}</h1>
+        </div>
+        <Suspense
+          fallback={
+            <SkeletonProductGrid
+              numberOfProducts={collection.products?.length}
+            />
+          }
         >
-          {selectedPrice.calculated_price}
-        </span>
-      </span>
-      {selectedPrice.price_type === "sale" && (
-        <>
-          <p>
-            <span className="text-ui-fg-subtle">Original: </span>
-            <span
-              className="line-through"
-              data-testid="original-product-price"
-              data-value={selectedPrice.original_price_number}
-            >
-              {selectedPrice.original_price}
-            </span>
-          </p>
-          <span className="text-ui-fg-interactive">
-            -{selectedPrice.percentage_diff}%
-          </span>
-        </>
-      )}
+          <PaginatedProducts
+            sortBy={sort}
+            page={pageNumber}
+            collectionId={collection.id}
+            countryCode={countryCode}
+            optionValueIds={optionValueIds}
+          />
+        </Suspense>
+      </div>
     </div>
   )
 }
